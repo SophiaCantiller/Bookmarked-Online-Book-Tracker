@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --lightbrown: #B58564;
+    --darkbrown: #3F352E;
+    --brownies: #775236;
+    --cream: #F3E9E1;
+    --lightcream: #F4EEDA;
+    --shinebrown: #CEAE98;
+    --superlightbrown: #F6EEE8;
+    --white: #FFFFFF;
+    --black: #121212;
+}
+
+.nav {
+    background-color: var(--brownies);
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--cream);
+}
+
+.nav h1 {
+    margin: 1.5rem 10rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--lightcream);
+    cursor: pointer;
+}
+
+/* Page 3 */
+.contact {
+    margin-top: 10rem;
+}
+
+.side-img {
+    width: 40rem;
+    height: 55rem;
+    margin-top: -10rem;
+    background-color: var(--lightbrown);
+}
+
+.side-img h1 {
+    padding-top: 10rem;
+    padding-left: 9rem;
+    font-size: 4rem;
+    color: var(--lightcream);
+}
+
+.books2 img {
+    width: 30rem;
+    margin-top: -30rem;
+    margin-left: 5rem;
+}
+
+/* Form */
+
+form {
+    width: 47rem;
+    height: 30rem;
+    border-radius: 2rem;
+    margin-top: -45rem;
+    margin-left: 43rem;
+    background-color: var(--superlightbrown);
+}
+
+.forms {
+    margin-left: 3rem;
+}
+
+.text1 h1 {
+    margin-top: -1rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    line-height: 5rem;
+    font-weight: 500;
+    font-size: 3rem;
+    color: var(--lightbrown);
+}
+
+.text1 b {
+    color: var(--brownies);
+}
+
+.form-label {
+    font-size: 1.5rem;
+    color: var(--lightbrown);
+}
+
+.mb-3 {
+    margin-left: 4rem;
+}
+
+.mb-4 {
+    margin-left: 25rem;
+    margin-top: -6.1rem;
+}
+
+.mb-5 {
+    margin-left: 4rem;
+    margin-top: -1rem;
+}
+
+.mb-6 {
+    margin-left: 4rem;
+    margin-top: -2.5rem;
+}
+
+.mb-7 {
+    margin-left: 4rem;
+    margin-top: .5rem;
+}
+
+#form-control {
+    width: 15rem;
+}
+
+#form-control-email {
+    width: 36rem;
+}
+
+#form-control-spassword {
+    width: 36rem;
+}
+
+#btn3 {
+    padding: 1rem 5rem;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    background: transparent;
+    font-weight: bolder;
+    border: 1px solid var(--darkbrown);
+    color: var(--darkbrown);
+    transition: .5s;
+}
+
+#btn3:hover {
+    background-color: var(--darkbrown);
+    color: var(--white);
+}
+
+#text2 {
+    margin-left: 18.2rem;
+    color: var(--lightbrown);
+}
+
+p.error-msg {color: red;font-size: 16px;margin-top: 20px;}

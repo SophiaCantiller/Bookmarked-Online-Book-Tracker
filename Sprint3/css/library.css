@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --lightbrown: #B58564;
+    --darkbrown: #3F352E;
+    --brownies: #775236;
+    --cream: #F3E9E1;
+    --lightcream: #F4EEDA;
+    --shinebrown: #CEAE98;
+    --superlightbrown: #F6EEE8;
+    --white: #FFFFFF;
+    --black: #121212;
+}
+
+.nav {
+    background-color: var(--brownies);
+}
+
+.nav h1 {
+    margin: 1.5rem 10rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--lightcream);
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--cream);
+}
+
+.navs {
+    margin-left: 30rem;
+}
+
+.nav-list ul li {
+    float: left;
+    margin-left: 5rem;
+    color: var(--cream);
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  color: var(--cream);
+}
+
+/* Page 4 */
+
+.text1 h1 {
+    text-align: center;
+    margin-top: 3rem;
+    color: var(--brownies);
+    font-size: 3rem;
+}
+
+.button {
+    margin-top: 2rem;
+}
+
+.button a {
+    background-color: darkgreen;
+    color: var(--white);
+    text-decoration: none;
+    padding: .5rem 3rem;
+    border-radius: 2rem;
+    margin-left: 42rem;
+    text-align: center;
+}
+
+.button a:hover {
+    color: var(--cream);
+}
+
+/* Add a Book */
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 30rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 4rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    margin-left: 50rem;
+    background-color: transparent;
+    border: 1px solid var(--darkbrown);
+    color: var(--brownies);
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--brownies);
+    border: 1px solid var(--brownies);
+    color: var(--white);
+    transition: .5s;
+    opacity: 0.8;
+  }
+
+  #btn {
+      margin-top: 1rem;
+      border-radius: 2rem;
+      color: var(--white);
+      background-color: green;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: transparent;
+  }
+  
+  /* Center the image and position the close button */
+  .txt1 h2 {
+      margin-left: 4.5rem;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.text {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 5rem; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    padding-bottom: 2rem;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  #modal-content {
+      width: 40rem;
+  }
+
+.subtn {
+    width: 13rem;
+    padding: 1rem 2rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+
+.cancelbtn {
+    width: 13rem;
+    padding: 1rem 2rem;
+    margin-left: 6rem;
+    margin-top: -4rem;
+}
+
+#books {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#books td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#books tr:nth-child(even){background-color: #f2f2f2;}
+
+#books tr:hover {background-color: #ddd;}
+
+#books th {
+  padding: 12px 10px;
+  text-align: left;
+  background-color: #B58564;
+  color: white;
+}
+
+.table-container {width: 1024px;margin: auto;}
+
+button#btn {background-color: #3F352E;border-radius: 5px;padding: 10px 30px;margin-bottom: 10px}
+
+p.error-msg {margin: 0;color: red;font-size: 16px;}
+
+.table-header {display: flex;flex-direction: row;justify-content: space-between;align-content: center;align-items: center;}
+
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.text {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }

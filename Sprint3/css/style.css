@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --lightbrown: #B58564;
+    --darkbrown: #3F352E;
+    --brownies: #775236;
+    --cream: #F3E9E1;
+    --lightcream: #F4EEDA;
+    --shinebrown: #CEAE98;
+    --superlightbrown: #F6EEE8;
+    --white: #FFFFFF;
+    --black: #121212;
+}
+
+.nav {
+    background-color: var(--lightbrown);
+}
+
+.nav h1 {
+    margin: 1.5rem 10rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--lightcream);
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--cream);
+}
+
+/* Page 1 */
+
+.homies {
+    margin-left: -2rem;
+}
+
+.home h1 {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    font-size: 5rem;
+    color: var(--brownies);
+}
+
+.home p {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+}
+
+.button {
+    margin-left: 10rem;
+}
+
+#btn1 {
+    padding: 1rem 5rem;
+    font-weight: bolder;
+    background-color: var(--darkbrown);
+    transition: .5s;
+}
+
+#btn2 {
+    padding: 1rem 5rem;
+    background: transparent;
+    font-weight: bolder;
+    border: 1px solid var(--darkbrown);
+    color: var(--darkbrown);
+    transition: .5s;
+}
+
+#btn1:hover {
+    border: 1px solid var(--darkbrown);
+    background: transparent;
+    color: var(--darkbrown);
+}
+
+#btn2:hover {
+    background-color: var(--darkbrown);
+    color: var(--white);
+}
+
+.books1 img {
+    width: 40rem;
+    margin-top: -25rem;
+    margin-left: 45rem;
+}
+
+.all-books {
+    margin-left: -8rem;
+    margin-top: 5rem;
+    background-color: var(--cream);
+    top: 10rem;
+}
+
+.img-books {
+    margin-left: 5rem;
+    padding-top: 12rem;
+}
+
+.img-books img {
+    width: 20rem;
+    margin: -3rem;
+    margin-top: -15rem;
+    line-height: 10px;
+}
+

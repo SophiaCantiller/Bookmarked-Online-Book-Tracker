@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 50rem;
+}
+
+:root {
+    --lightbrown: #B58564;
+    --darkbrown: #3F352E;
+    --brownies: #775236;
+    --cream: #F3E9E1;
+    --lightcream: #F4EEDA;
+    --shinebrown: #CEAE98;
+    --superlightbrown: #F6EEE8;
+    --white: #FFFFFF;
+    --black: #121212;
+}
+
+.nav {
+    background-color: var(--brownies);
+}
+
+.nav h1 {
+    margin: 1.5rem 10rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--lightcream);
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--cream);
+}
+
+.navs {
+    margin-left: 30rem;
+}
+
+.nav-list ul li {
+    float: left;
+    margin-left: 5rem;
+    color: var(--cream);
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: var(--cream);
+}
+
+.icon img {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.title h1 {
+    margin-left: 40rem;
+    margin-top: -8rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--brownies);
+}
+
+.title p {
+    margin-left: 18rem;
+    margin-top: 5rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact h1 {
+    margin-left: 37rem;
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--lightbrown);
+}
+
+.contact p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+}
